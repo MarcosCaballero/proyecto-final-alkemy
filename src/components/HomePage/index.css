@@ -1,0 +1,44 @@
+body {
+    margin: 0 20px;
+    padding: 0;
+    background-color: #eee;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main-container-app {
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* height: 100%; */
+}
+
+.operation-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: initial;
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px auto;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.operation-element:hover{
+    background-color: #cfcfcf;
+}
+
+.selected{
+    background-color: gold;
+    transform: scale(1.05, 1.05);
+}

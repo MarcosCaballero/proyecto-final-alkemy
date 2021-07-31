@@ -1,0 +1,29 @@
+.form-button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+
+.put {
+    background-color: rgb(34, 34, 251)
+}
+
+.delete {
+    background-color: rgb(255, 36, 36);
+}
+
+.create {
+    /* color: black; */
+    background-color: rgb(94, 168, 192);
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.disabled:hover {
+    background-color: grey;
+}

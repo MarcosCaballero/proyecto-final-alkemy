@@ -1,0 +1,50 @@
+.Operations-Modal {
+    position: fixed;
+    margin: 0 auto;
+    top: 10%;
+    background-color: #ffffff;
+    z-index: 10;
+    width: calc(100% - 25%);
+    height: auto;
+    left: 15%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.Operations-Modal-Overlay{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(216, 216, 216, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Operations-Modal .landing-title {
+    margin-bottom: 38px;
+}
+
+.Operations-Modal .landing-text {
+    /* font-size: 24px; */
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.Operations-Modal .landing-button {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Operations-Modal--close-icon {
+    background-image: url(./img/modal-close-icon.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    cursor: pointer;
+}
